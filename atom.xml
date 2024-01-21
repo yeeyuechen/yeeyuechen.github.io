@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>BAKA!</title>
+  
+  <subtitle>一叶知秋BAKA的小站捏</subtitle>
+  <link href="https://yeeyuechen.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://yeeyuechen.github.io/"/>
+  <updated>2024-01-21T03:41:57.565Z</updated>
+  <id>https://yeeyuechen.github.io/</id>
+  
+  <author>
+    <name>yuchen</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>为老电脑安装Ubuntu，发（ya）挥（zha）老电脑剩余价值，搭建samba共享文件+git托管服务器</title>
+    <link href="https://yeeyuechen.github.io/2024/01/21/b2401211103/"/>
+    <id>https://yeeyuechen.github.io/2024/01/21/b2401211103/</id>
+    <published>2024-01-21T03:03:28.000Z</published>
+    <updated>2024-01-21T03:41:57.565Z</updated>
+    
+    <content type="html"><![CDATA[<p>换了台新的电脑😎终于把用了十多年的老三星换下来了</p><p>上手使用之后速度明显比原来的老三星快了很多，几十倍几十倍的性能提升，老三星闲置在那里有点可惜，刚好可以装个Linux玩玩（</p><p>装好ubt然后SSH链接到主机<br><img src="https://img2.imgtp.com/2024/01/21/2pzkmsF2.png" alt="演示图片"><br>（192.168.31.20是我的局域网IP）</p><h3 id="smb-Samba-服务安装"><a href="#smb-Samba-服务安装" class="headerlink" title="smb(Samba)服务安装"></a>smb(Samba)服务安装</h3><p>装一下必要的包</p><pre><code># apt update &amp;&amp; upgrade# apt install samba</code></pre><p>我建议你创建一个smb服务专用的账户（</p><pre><code># useradd &lt;用户名&gt; -s /usr/sbin/nologin</code></pre><p>设置samba密码，注意samba的密码和你的系统用户的密码是不同的，所以在设置samba密码时可以考虑与系统账户本身密码不同的密码（当客户端访问时，输入的是你设置的samba密码而非用户密码）</p><pre><code># sudo smbpasswd -a &lt;用户名&gt;</code></pre><p>修改<br>    &#x2F;etc&#x2F;samba&#x2F;smb.conf<br>这个配置文件，在这里添加共享文件夹信息</p><p>我这里拿Vim举例</p><pre><code># vim /etc/samba/smb.conf输入&gt;&gt;[secret]    #共享目录名，访问时的展示名    comment = Secret File       #该共享目录的描述    path = /home/work/sharedir  #访问的实际路径,前面设置的    valid users = smbuser       #设置可访问的用户，此处为前面添加的用户    guest ok = no               #是否允许访客，否    writable = yes              #可写，是    browsable = yes             #可浏览，是</code></pre><p>重启samba服务</p><pre><code>sudo service smbd restart</code></pre><p>客户端的连接我就不多讲了，最后映射到网络驱动器的效果像这样<br><img src="https://img2.imgtp.com/2024/01/21/vp1VCjF2.png" alt="效果"></p><h3 id="gitea（git托管）"><a href="#gitea（git托管）" class="headerlink" title="gitea（git托管）"></a>gitea（git托管）</h3><p>额，怎么说呢，你可以理解为搭建一个你自己的“Github”</p><p>我懒癌犯了，丢个链接你们自己参考（</p><p><a href="https://blog.csdn.net/slimmm/article/details/108992087">https://blog.csdn.net/slimmm/article/details/108992087</a></p><p>gitea.service在<br><a href="https://github.com/go-gitea/gitea/blob/release/v1.21/contrib/systemd/gitea.service">https://github.com/go-gitea/gitea/blob/release/v1.21/contrib/systemd/gitea.service</a></p><p>照着来就行，很简单的</p><p><img src="https://img2.imgtp.com/2024/01/21/SDqIDwfQ.png" alt="还是演示图"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;换了台新的电脑😎终于把用了十多年的老三星换下来了&lt;/p&gt;
+&lt;p&gt;上手使用之后速度明显比原来的老三星快了很多，几十倍几十倍的性能提升，老三星闲置在那里有点可惜，刚好可以装个Linux玩玩（&lt;/p&gt;
+&lt;p&gt;装好ubt然后SSH链接到主机&lt;br&gt;&lt;img src=&quot;https:</summary>
+      
+    
+    
+    
+    <category term="技术" scheme="https://yeeyuechen.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Linux 存储 git" scheme="https://yeeyuechen.github.io/tags/Linux-%E5%AD%98%E5%82%A8-git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://yeeyuechen.github.io/2024/01/21/hello-world/"/>
+    <id>https://yeeyuechen.github.io/2024/01/21/hello-world/</id>
+    <published>2024-01-20T16:10:00.000Z</published>
+    <updated>2024-01-21T02:58:12.829Z</updated>
+    
+    <content type="html"><![CDATA[<p>哈喽你妈</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;哈喽你妈&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="水" scheme="https://yeeyuechen.github.io/categories/%E6%B0%B4/"/>
+    
+    
+    <category term="水" scheme="https://yeeyuechen.github.io/tags/%E6%B0%B4/"/>
+    
+  </entry>
+  
+</feed>
