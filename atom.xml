@@ -6,7 +6,7 @@
   <link href="https://yeeyuechen.github.io/atom.xml" rel="self"/>
   
   <link href="https://yeeyuechen.github.io/"/>
-  <updated>2024-01-21T03:41:57.565Z</updated>
+  <updated>2024-01-23T16:50:04.877Z</updated>
   <id>https://yeeyuechen.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>困困！困困困！</title>
+    <link href="https://yeeyuechen.github.io/2024/01/24/b240124/"/>
+    <id>https://yeeyuechen.github.io/2024/01/24/b240124/</id>
+    <published>2024-01-23T16:41:48.000Z</published>
+    <updated>2024-01-23T16:50:04.877Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天打舞萌没吃到分捏。。。</p><p>困困，想睡觉捏</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;今天打舞萌没吃到分捏。。。&lt;/p&gt;
+&lt;p&gt;困困，想睡觉捏&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="水" scheme="https://yeeyuechen.github.io/categories/%E6%B0%B4/"/>
+    
+    
+    <category term="水" scheme="https://yeeyuechen.github.io/tags/%E6%B0%B4/"/>
+    
+  </entry>
   
   <entry>
     <title>为老电脑安装Ubuntu，发（ya）挥（zha）老电脑剩余价值，搭建samba共享文件+git托管服务器</title>
