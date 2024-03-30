@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>一叶知秋BAKA</title>
+  
+  <subtitle>笨蛋Blog</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2024-03-30T21:25:51.341Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>yuchen</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>你们好，这是我博客第三次重置了</title>
+    <link href="http://example.com/2024/03/31/202403310522/"/>
+    <id>http://example.com/2024/03/31/202403310522/</id>
+    <published>2024-03-30T21:22:31.000Z</published>
+    <updated>2024-03-30T21:25:51.341Z</updated>
+    
+    <content type="html"><![CDATA[<p>我的工作站</p><p>加装了个硬盘，所以重做了系统重分配了分区</p><p>吗的，忘了把博客数据同步到NAS上了</p><p>爆爆爆！</p><p>真心不想写东西，不过也没人逼我写，索性不写咯（逃</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;我的工作站&lt;/p&gt;
+&lt;p&gt;加装了个硬盘，所以重做了系统重分配了分区&lt;/p&gt;
+&lt;p&gt;吗的，忘了把博客数据同步到NAS上了&lt;/p&gt;
+&lt;p&gt;爆爆爆！&lt;/p&gt;
+&lt;p&gt;真心不想写东西，不过也没人逼我写，索性不写咯（逃&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="水" scheme="http://example.com/categories/%E6%B0%B4/"/>
+    
+    
+    <category term="水" scheme="http://example.com/tags/%E6%B0%B4/"/>
+    
+  </entry>
+  
+</feed>
