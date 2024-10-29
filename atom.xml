@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-05-10T16:40:40.193Z</updated>
+  <updated>2024-10-29T13:13:38.619Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>对于近期Linus国籍歧视的情况进行简单锐评</title>
+    <link href="http://example.com/2024/10/29/202410292049/"/>
+    <id>http://example.com/2024/10/29/202410292049/</id>
+    <published>2024-10-29T12:50:08.351Z</published>
+    <updated>2024-10-29T13:13:38.619Z</updated>
+    
+    <content type="html"><![CDATA[<p>Linux，一般指GNU&#x2F;Linux（单独的Linux内核并不可直接使用，一般搭配GNU套件，故得此称呼），是一种免费使用和自由传播的类UNIX操作系统，其内核由林纳斯·本纳第克特·托瓦兹（Linus Benedict Torvalds）于1991年10月5日首次发布，它主要受到Minix和Unix思想的启发，是一个基于POSIX的多用户、多任务、支持多线程和多CPU的操作系统。它支持32位和64位硬件，能运行主要的Unix工具软件、应用程序和网络协议。</p><p>而近期，作为公众人物的林纳斯·本纳第克特·托瓦兹（下文简称Linus）将大批俄罗斯籍的Linux内核贡献者的名字从贡献者名单中移除，却依然保留着俄籍开发者们贡献代码，还不忘对着俄籍开发者开“地图炮”，这无异于手撕Linux基金会当初立下的规矩，此等行为实在令人愤愤不平。而如今，不少开源项目的开发者也以类似的行为惹人愤然</p><p>这让大伙心中起了疑惑：“开源”究竟是否存在？</p><p>这的确是个难以回答的问题，虽然技术是开放使用的，但主要负责项目的开发者却常带着自己的偏见与zzzq不平等对待其他开发者。他们的行为也确实体现了他们对“公众人物需谨言慎行”的真理理解匮乏从而无视事情的严重性，也体现了他们对开源精神的轻视与不屑。</p><p>真正受人爱戴的开源开发者，他的行为的目的绝对是值得他人尊重的，Linus的这次行为无疑对开源这个圈子造成了重大打击。</p><p>回到刚才的问题，“‘开源’究竟是否存在”，我个人观点是，绝对是存在的，只要有人贡献，那么开源精神就永远不会消亡。不过开源路漫漫，道阻且长，需要大家一同贡献，只有这样，开源路才会行得通，走得顺！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Linux，一般指GNU&amp;#x2F;Linux（单独的Linux内核并不可直接使用，一般搭配GNU套件，故得此称呼），是一种免费使用和自由传播的类UNIX操作系统，其内核由林纳斯·本纳第克特·托瓦兹（Linus Benedict Torvalds）于1991年10月5日首次</summary>
+      
+    
+    
+    
+    <category term="瞎几把评" scheme="http://example.com/categories/%E7%9E%8E%E5%87%A0%E6%8A%8A%E8%AF%84/"/>
+    
+    
+    <category term="水" scheme="http://example.com/tags/%E6%B0%B4/"/>
+    
+    <category term="瞎几把评" scheme="http://example.com/tags/%E7%9E%8E%E5%87%A0%E6%8A%8A%E8%AF%84/"/>
+    
+  </entry>
   
   <entry>
     <title>《舞萌DX 2024》即将更新，这是主播的瞎几把评价</title>
